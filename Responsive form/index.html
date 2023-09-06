@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1 class="form-title">Registration Form</h1>
+    <form action="#">
+        <div class="main-user-info">
+        <div class="user-input-box">
+                <label for="firsstname">First Name</label>
+                <input type="text"
+                 id="firstname" 
+                 name="firstname" 
+                 placeholder="Enter Your First Name">
+            </div>
+         <div class="user-input-box">
+                <label for="lastname">Last Name</label>
+                <input type="text"
+                 id="lastname" 
+                 name="lastname" 
+                 placeholder="Enter Your Last Name">
+        </div>
+        <div class="user-input-box">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email">
+    </div>
+    <div class="user-input-box">
+        <label for="phoneno">Phone Number</label>
+        <input type="text" id="phoneno" name="phoneno" placeholder="Enter Your Phone Number">
+</div>
+<div class="user-input-box">
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="Enter Your Password">
+</div>
+<div class="user-input-box">
+    <label for="confirmpassword">Confirm Password</label>
+    <input type="password" id="confirmpassword" name="confirmpassword" placeholder="Enter Your Password">
+</div>
+<div class="gender-details-box">
+    <span class="gender-title">Gender</span>
+    <div class="gender-category">
+        <input type="radio" name="gender"id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender"id="female">
+        <label for="female">Female</label>
+    </div>
+</div>
+<div class="form-submit-btn">
+    <input type="submit" value="Submit">
+  </div>
+</form>
+    </div>
+</body>
+</html>
